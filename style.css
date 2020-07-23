@@ -296,59 +296,60 @@ h6 {
 }
 
 .project {
-      height: 500px;
+      height: 650px;
 }
 
 .project1 {
-      background: url("images/inventorapi.jpg") no-repeat 5% 50%;
+      background: url("images/admindashpanel.png") no-repeat 70% 50%;
       background-size: cover;
 }
 
 .project1::after {
-      content: "api programming in c#.";
+      content: "[C#] ASP.NET Core / \A .NET Core Development.";
+      white-space: pre-wrap;
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
       color: #fff;
       display: block;
-      top: 8%;
-      left: -40%;
+      top: 12%;
+      left: -85%;
       right: 0;
       bottom: 0;
 }
 
 .project2 {
-      background: url("images/sd01.gif") no-repeat 30% 50%;
+      background: url("images/welcomeScreen.gif") no-repeat 30% 100%;
       background-size: cover;
 }
 
 .project2::after {
-      content: "game dev.";
-      font-family: "Roboto Mono";
+      content: "[React Native / Swift] \A mobile development.";
+      white-space: pre-wrap;
       font-size: 36px;
       position: relative;
       color: #fff;
       display: block;
-      top: 80%;
-      left: 90%;
+      top: 68%;
+      left: 100%;
       right: 0;
       bottom: 0;
 }
 
 .project3 {
-      background: url("images/webdesign_big.jpeg") no-repeat 50% 50%;
+      background: url("images/taskplan.gif") no-repeat 10% 100%;
       background-size: cover;
 }
 
 .project3::after {
-      content: "web design.";
+      content: "[C#] Blazor WebAssembly.";
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
       color: #fff;
       display: block;
-      top: 80%;
-      left: -50%;
+      top: 70%;
+      left: -90%;
       right: 0;
       bottom: 0;
 }
@@ -359,7 +360,8 @@ h6 {
 }
 
 .project4::after {
-      content: "web development.";
+      content: "[Javascript / NodeJS] \A web development.";
+      white-space: pre-wrap;
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
